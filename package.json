@@ -1,0 +1,12 @@
+{
+  "name": "ScriptKu-Protection",
+  "version": "1.0.0",
+  "description": "Anti-Bypass Shield – By 7ooModdss",
+  "main": "lib/shield.js",
+  "bin": { "ScriptKu-Protection": "./bin/shield.js" },
+  "scripts": { "start": "node bin/shield.js" },
+  "keywords": ["shield","anti-bypass","security","security"],
+  "author": "7ooModdss",
+  "license": "MIT",
+  "dependencies": { "chalk": "^4.1.2" }
+}
