@@ -1,6 +1,6 @@
 #!/usr/bin/env node
-const {protect, activateSelfShield} = require('../lib/shield');
+const {protect, JooModss} = require('../lib/shield');
 const target = process.argv[2]||process.cwd();
 
-activateSelfShield();           
+JooModss();           
 protect(require('path').resolve(target));
